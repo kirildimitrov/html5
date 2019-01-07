@@ -1,0 +1,27 @@
+body{
+	text-align:center;
+}
+#box{
+	display:block;
+	width:500px;
+	color:#ffffff;
+
+	opacity:0.6;
+	background:red;
+	width: 120px;
+	height: 75px;
+	-webkit-transition:-webkit-transform 2s, opacity 2s, background 2s,
+		width 2s, height 2s;
+	-webkit-border-radius:10px;
+}
+#box:hover{
+	-webkit-transform:rotate(360deg);
+	opacity: 1;
+	background:#1ec7e6;
+	width: 450px;
+	height: 110px;
+}
+
+#text{
+	font: bold 30px Century Gothic;
+}

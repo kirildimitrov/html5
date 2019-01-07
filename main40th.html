@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" type="text/css" href="40th.css">
+</head>
+<body>
+<canvas id="myCanvas" width="200;" height="100;"style="border:1px solid #000000"
+style="border:1px solid #d3d3d3";>
+You don't support canvas
+</canvas>
+
+<script>
+		var x = document.getElementById("myCanvas");	
+		var myCanvas = x.getContext('2d');
+		
+		myCanvas.font="30px Arial";
+		myCanvas.textAlign="start";
+		myCanvas.strokeText("asd",10,50)
+
+		myCanvas.translate(100,150);
+		myCanvas.fillText("after translate", 10,30);
+</script>
+</body>
+</html>
